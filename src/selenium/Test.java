@@ -13,6 +13,7 @@ public class Test {
 		System.setProperty("webdriver.chrome.driver", "D:\\\\sts programs\\\\selenium\\\\driver\\\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://adactinhotelapp.com/");
+		System.out.println("HI Kaushik");
 		
 		WebElement username = driver.findElement(By.id("username"));
 		username.sendKeys("sakthiraj");
